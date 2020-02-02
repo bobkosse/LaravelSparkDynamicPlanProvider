@@ -1,5 +1,5 @@
 {
-    "name": "webleit/laravel-spark-dynamic-plan-provider",
+    "name": "bizprove/laravel-spark-dynamic-plan-provider",
     "version": "1.4.0",
     "homepage": "https://github.com/webleit/LaravelSparkDynamicPlanProvider",
     "license": "MIT",
@@ -9,13 +9,19 @@
             "email": "daniele@weble.it",
             "homepage": "https://www.weble.it",
             "role": "Developer"
+        },
+        {
+            "name": "Bob Kosse",
+            "email": "bob@bobkosse.nl",
+            "homepage": "https://bobkosse.nl",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "~7.0",
-        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
-        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0",
-        "illuminate/cache": "~5.5.0|~5.6.0|~5.7.0",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~6.2",
+        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~6.2",
+        "illuminate/cache": "~5.5.0|~5.6.0|~5.7.0|~6.2",
         "stripe/stripe-php": "~5.0",
         "laravel/cashier": "~7.0"
     },
